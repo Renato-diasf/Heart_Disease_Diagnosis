@@ -28,12 +28,14 @@ Este repositório contém um projeto de Machine Learning voltado para o diagnós
    - Normalização e codificação de variáveis
 
 4. **Modelagem**  
-   - Teste de diversos modelos (ex: Regressão Logística, Random Forest, KNN, etc.)  
+   - Teste de diversos modelos (ex: Árvore de Decisão, MLP, KNN, Naive Bayes)  
    - Avaliação de performance com métricas como accuracy, precisão, recall e F1-score
 
-5. **Conclusões**  
-   Reflexões sobre os modelos mais eficazes e possíveis melhorias.
+## 📌 Conclusão
 
-## 📈 Resultados
+Após a aplicação e avaliação de diversos algoritmos de machine learning, o modelo **K-Nearest Neighbors (KNN)** apresentou o melhor desempenho no contexto do diagnóstico de doenças cardíacas. Embora outros modelos tenham alcançado valores competitivos de acurácia e precisão, o KNN se destacou por apresentar a **maior taxa de revocação (recall)**.
 
-Os modelos testados apresentaram diferentes níveis de desempenho. O modelo com melhor performance foi [**inserir modelo aqui**, ex: Random Forest], atingindo uma acurácia de aproximadamente **XX%**.
+A revocação mede a capacidade do modelo de identificar corretamente os casos positivos — ou seja, os pacientes que realmente possuem a doença. Em cenários médicos, essa métrica é **crucial**, pois **minimizar falsos negativos** (casos em que o modelo afirma que o paciente está saudável, mas ele tem a doença) é fundamental para garantir segurança e tratamento adequado aos pacientes.
+
+Portanto, mesmo que outros modelos tenham apresentado bom desempenho geral, a escolha do **KNN como o modelo preferido** se justifica pela sua **superioridade na revocação**, alinhando-se melhor aos objetivos de um sistema de suporte ao diagnóstico médico.
+
